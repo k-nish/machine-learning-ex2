@@ -27,7 +27,7 @@ data = load('ex2data1.txt');
 X = data(:, [1, 2]); y = data(:, 3);
 
 %% ==================== Part 1: Plotting ====================
-%  We start the exercise by first plotting the data to understand the 
+%  We start the exercise by first plotting the data to understand the
 %  the problem we are working with.
 
 fprintf(['Plotting data with + indicating (y = 1) examples and o ' ...
@@ -35,7 +35,7 @@ fprintf(['Plotting data with + indicating (y = 1) examples and o ' ...
 
 plotData(X, y);
 
-% Put some labels 
+% Put some labels
 hold on;
 % Labels and Legend
 xlabel('Exam 1 score')
